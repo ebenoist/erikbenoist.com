@@ -11,3 +11,7 @@ group :test do
   gem "rspec"
 end
 
+group :development, :test do
+  gem "debugger"
+end
+
